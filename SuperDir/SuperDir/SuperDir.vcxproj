@@ -131,6 +131,7 @@
     <ClCompile Include="FileInfo_Binary.cpp" />
     <ClCompile Include="FileInfo_EXE.cpp" />
     <ClCompile Include="FileInfo_Other.cpp" />
+    <ClCompile Include="FileInfo_Text.cpp" />
     <ClCompile Include="Funtion.cpp" />
     <ClCompile Include="IFileInfo.cpp" />
     <ClCompile Include="SuperDir.cpp" />
@@ -140,6 +141,7 @@
     <ClInclude Include="FileInfo_Binary.h" />
     <ClInclude Include="FileInfo_EXE.h" />
     <ClInclude Include="FileInfo_Other.h" />
+    <ClInclude Include="FileInfo_Text.h" />
     <ClInclude Include="Funtion.h" />
     <ClInclude Include="IFileInfo.h" />
   </ItemGroup>

@@ -39,6 +39,9 @@
     <ClCompile Include="FileInfo_Other.cpp">
       <Filter>Fichiers sources\Binary</Filter>
     </ClCompile>
+    <ClCompile Include="FileInfo_Text.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileInfo_Base.h">
@@ -57,6 +60,9 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="FileInfo_Other.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_Text.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
