@@ -16,6 +16,15 @@
     <Filter Include="Fichiers sources\Binary">
       <UniqueIdentifier>{4335ebb3-8d71-4198-99e6-05a96f5777ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Binary">
+      <UniqueIdentifier>{21fda137-6cae-4691-8ecd-f2b61e5afd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Text">
+      <UniqueIdentifier>{0b211151-146a-42c6-b086-aa66b54f02c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Text">
+      <UniqueIdentifier>{80963c5e-74ae-4024-9efa-c426938d81e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SuperDir.cpp">
@@ -39,6 +48,15 @@
     <ClCompile Include="FileInfo_Other.cpp">
       <Filter>Fichiers sources\Binary</Filter>
     </ClCompile>
+    <ClCompile Include="FileInfo_Text.cpp">
+      <Filter>Fichiers sources\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo_CPP.cpp">
+      <Filter>Fichiers sources\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo_H.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileInfo_Base.h">
@@ -51,12 +69,21 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="FileInfo_Binary.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Binary</Filter>
     </ClInclude>
     <ClInclude Include="FileInfo_EXE.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\Binary</Filter>
     </ClInclude>
     <ClInclude Include="FileInfo_Other.h">
+      <Filter>Fichiers d%27en-tête\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_CPP.h">
+      <Filter>Fichiers d%27en-tête\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_Text.h">
+      <Filter>Fichiers d%27en-tête\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_H.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
