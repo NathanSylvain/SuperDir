@@ -49,12 +49,15 @@
       <Filter>Fichiers sources\Binary</Filter>
     </ClCompile>
     <ClCompile Include="FileInfo_Text.cpp">
+<<<<<<< HEAD
       <Filter>Fichiers sources\Text</Filter>
     </ClCompile>
     <ClCompile Include="FileInfo_CPP.cpp">
       <Filter>Fichiers sources\Text</Filter>
     </ClCompile>
     <ClCompile Include="FileInfo_H.cpp">
+=======
+>>>>>>> d12061c985f7623de3d3203d805af7c95f68cad5
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -84,6 +87,9 @@
       <Filter>Fichiers d%27en-tête\Text</Filter>
     </ClInclude>
     <ClInclude Include="FileInfo_H.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_Text.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
