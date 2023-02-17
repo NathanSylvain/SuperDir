@@ -5,6 +5,8 @@
 
 int main()
 {
+
+    delete[] fichiers;
     std::cout << "Hello World!\n";
 }
 
