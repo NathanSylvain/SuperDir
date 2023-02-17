@@ -1,96 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Fichiers sources">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Fichiers de ressources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Fichiers sources\Binary">
-      <UniqueIdentifier>{4335ebb3-8d71-4198-99e6-05a96f5777ff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Binary">
-      <UniqueIdentifier>{21fda137-6cae-4691-8ecd-f2b61e5afd7c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\Text">
-      <UniqueIdentifier>{0b211151-146a-42c6-b086-aa66b54f02c3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête\Text">
-      <UniqueIdentifier>{80963c5e-74ae-4024-9efa-c426938d81e8}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="FileInfo_Base.cpp" />
+    <ClCompile Include="FileInfo_Binary.cpp" />
+    <ClCompile Include="FileInfo_CPP.cpp" />
+    <ClCompile Include="FileInfo_EXE.cpp" />
+    <ClCompile Include="FileInfo_H.cpp" />
+    <ClCompile Include="FileInfo_Other.cpp" />
+    <ClCompile Include="FileInfo_Text.cpp" />
+    <ClCompile Include="Funtion.cpp" />
+    <ClCompile Include="IFileInfo.cpp" />
+    <ClCompile Include="SuperDir.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SuperDir.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_Base.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Funtion.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="IFileInfo.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_EXE.cpp">
-      <Filter>Fichiers sources\Binary</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_Binary.cpp">
-      <Filter>Fichiers sources\Binary</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_Other.cpp">
-      <Filter>Fichiers sources\Binary</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_Text.cpp">
-<<<<<<< HEAD
-      <Filter>Fichiers sources\Text</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_CPP.cpp">
-      <Filter>Fichiers sources\Text</Filter>
-    </ClCompile>
-    <ClCompile Include="FileInfo_H.cpp">
-=======
->>>>>>> d12061c985f7623de3d3203d805af7c95f68cad5
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <ClInclude Include="FileInfo_Base.h" />
+    <ClInclude Include="FileInfo_Binary.h" />
+    <ClInclude Include="FileInfo_CPP.h" />
+    <ClInclude Include="FileInfo_EXE.h" />
+    <ClInclude Include="FileInfo_H.h" />
+    <ClInclude Include="FileInfo_Other.h" />
+    <ClInclude Include="FileInfo_Text.h" />
+    <ClInclude Include="Funtion.h" />
+    <ClInclude Include="IFileInfo.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileInfo_Base.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Funtion.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="IFileInfo.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_Binary.h">
-      <Filter>Fichiers d%27en-tête\Binary</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_EXE.h">
-      <Filter>Fichiers d%27en-tête\Binary</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_Other.h">
-      <Filter>Fichiers d%27en-tête\Binary</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_CPP.h">
-      <Filter>Fichiers d%27en-tête\Text</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_Text.h">
-      <Filter>Fichiers d%27en-tête\Text</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_H.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FileInfo_Text.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <Filter Include="Text">
+      <UniqueIdentifier>{9686c02f-80e3-4641-a04e-012cc5f31402}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
