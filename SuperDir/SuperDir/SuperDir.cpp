@@ -2,11 +2,25 @@
 //
 
 #include <iostream>
+#include <assert.h>
+#include "funtion.h"
 
-int main()
+int main(int aCount, char* aFile)
 {
+    assert(1 <= aCount);
+    assert(NULL != aFile);
+    if (2 > aCount)
+    {
+        std::cerr << "ERREUR UTILISATEUR  Vous devez donner un chemin\n";
+        return 1;
+    }
+    else
+    {
+        Funtion::FindFiles(aFile);
+    }
+    
 
-    delete[] fichiers;
+    
     std::cout << "Hello World!\n";
 }
 

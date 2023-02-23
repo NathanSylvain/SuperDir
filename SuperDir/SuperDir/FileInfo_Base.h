@@ -3,13 +3,13 @@
 class FileInfo_Base: public IFileInfo
 {
 public:
-	virtual void Init(const wchar_t* aDirectory, char* aFile);
+	virtual void Init(const char* aDirectory, char* aFile);
 
 protected:
 
 
-	const wchar_t* mDirectory;
-	char* mFile;
+	 char mDirectory[512];
+	char mFile[256];
 
 };
 

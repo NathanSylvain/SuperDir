@@ -8,7 +8,7 @@
     <ClCompile Include="FileInfo_H.cpp" />
     <ClCompile Include="FileInfo_Other.cpp" />
     <ClCompile Include="FileInfo_Text.cpp" />
-    <ClCompile Include="Funtion.cpp" />
+    <ClCompile Include="Function.cpp" />
     <ClCompile Include="IFileInfo.cpp" />
     <ClCompile Include="SuperDir.cpp" />
   </ItemGroup>
