@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a5aeddc0-3b9b-4dd3-9ca1-07f0bf7f8241}</ProjectGuid>
-    <RootNamespace>SuperDir</RootNamespace>
+    <ProjectGuid>{c95d08c9-6efd-4c44-b835-1abc0a75f14a}</ProjectGuid>
+    <RootNamespace>SuperDirSolution</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,25 +129,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileInfo_Base.cpp" />
+    <ClCompile Include="FileInfo_Base.h" />
     <ClCompile Include="FileInfo_Binary.cpp" />
     <ClCompile Include="FileInfo_CPP.cpp" />
     <ClCompile Include="FileInfo_EXE.cpp" />
     <ClCompile Include="FileInfo_H.cpp" />
     <ClCompile Include="FileInfo_Other.cpp" />
     <ClCompile Include="FileInfo_Text.cpp" />
-    <ClCompile Include="Function.cpp" />
-    <ClCompile Include="IFileInfo.cpp" />
+    <ClCompile Include="Functions.cpp" />
     <ClCompile Include="SuperDir.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileInfo_Base.h" />
     <ClInclude Include="FileInfo_Binary.h" />
     <ClInclude Include="FileInfo_CPP.h" />
     <ClInclude Include="FileInfo_EXE.h" />
     <ClInclude Include="FileInfo_H.h" />
     <ClInclude Include="FileInfo_Other.h" />
     <ClInclude Include="FileInfo_Text.h" />
-    <ClInclude Include="Funtion.h" />
+    <ClInclude Include="Functions.h" />
     <ClInclude Include="IFileInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
